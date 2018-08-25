@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:600');
+
+.header__title{
+    color: #303030;
+    font: 600 18px 'Poppins', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.header__moto{
+    color: #000;
+    font: 600 86px/90px 'Poppins', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.gallery{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.gallery__item{
+    margin-right: 30px;
+}
+
+.gallery__button--left,
+.gallery__button--right{
+    position: absolute;
+    top: 40%;
+    z-index: 100;
+}
+
+
+.gallery__button--left{
+    left: -3em;
+}
+
+.gallery__button--right{
+    right: -3em;
+}
+
+.arrow_img{
+    height: 3em;
+}
